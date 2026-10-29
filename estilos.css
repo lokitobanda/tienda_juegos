@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(rgb(241, 153, 234) , rgb(255,255,0));
+}
+
+body.fondo-azul {
+    background: linear-gradient( rgb(189, 183, 183), rgba(0, 225, 255, 0.808));
+}
+
+
+body.fondo-purpura{
+    background:linear-gradient(#77e5e9, rgb(230, 3, 238));
+} 
+
+.catalogo{
+    width: 300px;
+    height: 400px;
+}
+
+.novedades{
+    width: 300px;
+    height: 400px;
+}
+
+.ofertas{
+    width: 500px;
+    height: 300px;
+}
+
+.fin{
+    width: 150px;
+    height: 150px;
+}
+
+.pagos{
+    width: 500px;
+    height: 300px;
+}
+
+.envios{
+    width: 700px;
+    height: 400px;
+}
+
+.index{
+     width: 300px;
+     height: 400px;
+}
+
+.inicio{
+    width: 300px;
+    height: 400px;
+}
+
+h1{
+    color: #0a2d73;
+}
+
+.modo-oscuro h1 {
+    color: #9dd7ff;
+}
+
+nav{
+  background-color: #46f790;
+}
+
+main nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    padding: 8px;
+    align-items: center;
+}
+
+nav a{
+    color: #7d1d1d;
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 2px 0;
+}
+
+a {
+    color: #0a2d73;
+}
+
+#modoOscuro {
+    font-size: 1.1rem;
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+}
+
+.boton-registro {
+    background-color: hsl(36, 92%, 45%);
+    color: lab(9.37% 0.48 0.17);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+
+#errorNombre
+#errorCorreo
+#errorMensaje {
+    color: red;
+    display:block;
+    margin-top: 5px;
+}
+
+.oculto{
+    display:none
+}
+
+
+
+
+
+
+
+
+.modo-oscuro {
+    background: #222 !important;
+    color: white !important;
+}
+
+.modo-oscuro nav {
+    background-color: #111;
+}
+
+.modo-oscuro a {
+    color: #9dd7ff;
+}
+
+.modo-oscuro button {
+    background-color: #444;
+    color: white;
+}
+
+.modo-oscuro table {
+    background-color: #333;
+    color: white;
+}
+
+.modo-oscuro input,
+.modo-oscuro textarea,
+.modo-oscuro select {
+    background-color: #333;
+    color: white;
+}
